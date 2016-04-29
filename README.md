@@ -6,7 +6,7 @@ A single page todo app using Node, AngularJS and MongoDB.
 I followed this [excellent tutorial](https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angular) by Chris Sevilleja.
 I also set up Karma, Jasmine and Protractor for testing.
 
-<img src="screenshot.png" width="350"/>
+<img src="screenshot.png"/>
 
 About
 ----
