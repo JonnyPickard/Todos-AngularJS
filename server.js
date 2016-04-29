@@ -10,7 +10,7 @@ var methodOverride = require('method-override');
 
 mongoose.connect('mongodb://localhost:27017/');
 
-app.use(express.static(__dirname + '/app/lib'));
+app.use(express.static(__dirname + '/app/public'));
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({'extended':'true'}));
 app.use(bodyParser.json());
@@ -71,4 +71,10 @@ app.post('/api/todos', function(req, res) {
               res.json(todos);
           });
       });
+  });
+
+  // application
+
+  app.get('*', function(req, res) {
+        res.sendFile('/app/views/index.html', {"root": __dirname});
   });
