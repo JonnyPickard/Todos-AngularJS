@@ -1,0 +1,26 @@
+{
+  "name": "todos-angular",
+  "description": "Single page to do list using angular, mongo and node.",
+  "main": "index.js",
+  "authors": [
+    "Jonny Pickard"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "AngularJS",
+    "Node",
+    "MongoDB."
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5"
+  }
+}
